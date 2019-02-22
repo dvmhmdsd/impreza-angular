@@ -1,0 +1,51 @@
+.section {
+    background-color: #f6f6f6
+}
+
+header {
+    margin-bottom: 90px;
+}
+
+header h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+header p {
+    font-weight: 600;
+    padding: 0 20%;
+}
+
+header .colored {
+    color: var(--main-color);
+}
+
+.ser-item {
+    text-align: center;
+    padding: 20px;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    display: flex; justify-content: center; align-items: center;
+}
+
+.ser-item h3 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.ser-item i {
+    font-size: 3rem;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: var(--main-color);
+}
+
+.ser-image {
+    background-image: url('http://impreza2.us-themes.com/wp-content/uploads/2015/04/shutterstock_258743255.jpg?id=1030');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

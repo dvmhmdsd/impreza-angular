@@ -1,0 +1,6 @@
+.btn {
+    background: var(--main-color);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}

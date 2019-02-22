@@ -1,0 +1,28 @@
+.section {
+    background: #000;
+    color: #fff;
+    padding-bottom: 80px;
+}
+
+header {
+    margin-bottom: 90px;
+}
+
+header h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+header p {
+    font-weight: 600;
+    padding: 0 20%;
+}
+
+header .colored {
+    color: var(--main-color);
+}
+
+.col-md-6 {
+    padding: 20px;
+}

@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FactsComponent implements OnInit {
 
+  satisfied: number = 128;
+  projects: number = 247;
+
   constructor() { }
 
   ngOnInit() {

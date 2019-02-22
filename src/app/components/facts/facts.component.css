@@ -1,0 +1,28 @@
+.fac-item {
+    padding: 30px;
+    background: var(--main-color);
+    color: #fff;
+}
+
+.fac-item .fac-number {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.fac-item.lighter {
+    background: rgba(249, 160, 44, 0.9);
+}
+
+.fac-tem {
+    color: #fff;
+    background: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fac-tem a {
+    color: #eee;
+    font-size: 3.4rem;
+    padding: 50px;
+}

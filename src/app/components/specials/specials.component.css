@@ -1,0 +1,53 @@
+.section {
+    padding-top: 100px;
+}
+
+header {
+    margin-bottom: 90px;
+}
+
+header h2 {
+    font-weight: bold;
+    font-size: 1.6rem;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+}
+
+.bridge {
+    position: relative;
+}
+
+hr {
+    width: 30%;
+}
+
+.fa-chevron-down {
+    display: inline-block;
+    position: absolute;
+    left: 49%;
+    bottom: -9px;
+    width: 30px;
+    background: #fff;
+    text-align: center;
+    color: #ebebeb;
+}
+
+.spec-item {
+    display: flex;
+    margin-top: 90px;
+}
+
+.spec-item i {
+    font-size: 2rem;
+    width: 90%;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid var(--main-color);
+    height: 35%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-color);
+    margin-right: 20px;
+}
