@@ -1,8 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-    --main-color: #f9a02c;
+    --main-color: rgb(249, 160, 44);
 }
 
 body {
-    background: #eee;
+    letter-spacing: 2px;
+    overflow-x: hidden;
+}
+
+#component {
+    margin-top: 800px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }

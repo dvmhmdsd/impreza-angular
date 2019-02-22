@@ -1,7 +1,18 @@
 /* navbar styles */
 .navbar {
     background-color: transparent;
-    font-size: 1.2rem
+    font-size: 1.2rem;
+    z-index: 999;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar.scrolled {
+    background: #fff;
+    box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.navbar.scrolled a {
+    color: #000;
 }
 
 .navbar .navbar-brand {
