@@ -1,0 +1,26 @@
+/* navbar styles */
+.navbar {
+    background-color: transparent;
+    font-size: 1.2rem
+}
+
+.navbar .navbar-brand {
+    font-size: 1.7rem;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar .navbar-nav {
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav li {
+    padding-right: 10px;
+}
+
+.navbar .navbar-nav a:hover {
+    color: var(--main-color);
+    transition: color 0.2s ease-in;
+}
